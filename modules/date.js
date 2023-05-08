@@ -1,5 +1,10 @@
+
+import { DateTime } from "./loxun.js";
+
 const dateNow = ()=>{
 const date = document.querySelector('#date');
-date.innerHTML = `<small>${Date()}</small>`;
+const now = DateTime.now()
+const nowFormart =  now.toLocaleString(DateTime.DATETIME_FULL);
+date.innerHTML = `<small>${nowFormart}</small>`;
 }
 export default dateNow
