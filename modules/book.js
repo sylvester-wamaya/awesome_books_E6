@@ -14,7 +14,7 @@ class Book {
   }
 }
 
-class Library{
+export default class Library{
   constructor(){
     this.books = JSON.parse(localStorage.getItem('books')) || [];
 
@@ -83,3 +83,5 @@ class Library{
   }
   
 }
+
+export {displaylist, addbtn}
