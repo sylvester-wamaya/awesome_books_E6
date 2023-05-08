@@ -73,6 +73,8 @@ Awesome Books Website is a project that allows a user to add a book to a collect
 - Added an horizontal line.
 - Added a h1 heading
 - Persist the data in localstorage
+- Used Javascript classes
+- Used Javascript modules
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -110,7 +112,7 @@ Clone this repository to your desired folder:
 Run this command:
 
 ```sh
-git clone git@github.com:diarisdiakite/awesome-books.git
+git clone git@github.com:sylvester-wamaya/awesome_books_E6.git
 ```
 
 
