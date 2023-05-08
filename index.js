@@ -4,6 +4,6 @@ import dateNow from './modules/date.js';
 
 const library = new Library();
 library.displaylist();
-library.addbtn(library);
+library.addbtn();
 navBar();
 dateNow();

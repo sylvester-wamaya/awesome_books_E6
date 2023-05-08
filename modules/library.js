@@ -53,10 +53,10 @@ export default class Library {
     this.displaylist();
   }
 
-  addbtn(library) {
+  addbtn() {
     addButton.addEventListener('click', (e) => {
       e.preventDefault();
-      library.addBook(formTitle.value, formAuthor.value);
+      this.addBook(formTitle.value, formAuthor.value);
 
       formTitle.value = '';
       formAuthor.value = '';
