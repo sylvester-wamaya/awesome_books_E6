@@ -30,7 +30,7 @@ export default class Library {
       const removeButton = document.createElement('button');
       removeButton.classList.add('my-button-container');
       bookCard.innerHTML += `    
-        <p class="my-title-container">'${book.title}' by ${book.author}</p>
+        <p class="my-title-container">${book.title} by ${book.author}</p>
         `;
       bookCard.id = `data-${book.id}`;
       removeButton.addEventListener('click', (e) => {
